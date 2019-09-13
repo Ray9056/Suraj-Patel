@@ -19,7 +19,7 @@ hr {
 }
 
 .mb-3 {
-  margin-left: 500px;
+  text-emphasis: filled black;  
 }
 
 hr.light {
@@ -175,12 +175,16 @@ img::-moz-selection {
   background-color: transparent;
 }
 
-#my-portfolio h5{
+#my-portfolio h5 {
   margin-top: 2em;
 }
 
-#my-portfolio img{
+#my-portfolio img {
   margin-top: 1.5em;
+  height: 400px;
+  width: 700px;
+  border: 3px solid #fff;
+
 }
 
 #hr-dark {
